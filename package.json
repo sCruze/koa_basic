@@ -1,0 +1,35 @@
+{
+  "name": "vue_basic_node",
+  "version": "1.0.0",
+  "description": "Basic project on vue, using node, without using the cli.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server",
+    "start": "node server"
+  },
+  "keywords": [
+    "node",
+    "vue",
+    "js"
+  ],
+  "author": "Sergey Korolyov",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "consola": "^2.15.3",
+    "dotenv": "^8.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-passport": "^4.1.4",
+    "koa-router": "^10.0.0",
+    "koa-static": "^5.0.0",
+    "koa-views": "^7.0.1",
+    "vue": "^2.6.12"
+  },
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.7",
+    "sass-loader": "^11.0.1"
+  }
+}
